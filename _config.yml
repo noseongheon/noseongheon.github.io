@@ -1,4 +1,4 @@
-title: 노성헌 포트폴리오
+title: 성헌 포트폴리오
 name: 노성헌
 email: nosh0923@naver.com
 description: >-
@@ -23,8 +23,8 @@ youtube_vid: #
 
 
 # Custom Color
-primary: 2c98f0 #b72cf0
-primary_hover: 44A4F2 #9a2dc7
+primary: b72cf0 #2c98f0 #b72cf0
+primary_hover: ec5453 #44A4F2 #9a2dc7
 color_1: 2c98f0 #b72cf0
 color_2: ec5453
 color_3: f9bf3f
@@ -37,6 +37,10 @@ color_6: 4054b2
 slider_0: # 형식에 맞추어 항목 추가
 - background_url: images/cover_bg_3.jpeg
   title: 안녕하세요. <br>반갑습니다!</br>
+  position: absolute
+  transform: translate( -50%, -50%)
+  left: 200px
+  bottom: 80px
 
 
 # slider type 1  (텍스트가 좌측 정렬된 슬라이더)
@@ -48,6 +52,10 @@ slider_1: # 형식에 맞추어 항목 추가
     아무것도 몰랐지만<br>
     무작정 따라하며 성장해온<br>
     초보 개발자 babycheetah입니다.
+  position: absolute
+  transform: translate( -50%, -50%)
+  left: 200px
+  bottom: 80px
 
 
 # About
@@ -58,7 +66,8 @@ about_introduce: >-
   "안녕하세요. 인공지능 전문가를 꿈꾸는 아기 개발자, 아기치타입니다."
 about_content: >-
   설명설명
-  서서설명 
+  서서설명<br>
+  <strong>강조하고싶은 문구</strong>
 about_services: # 형식에 맞추어 항목 추가
 - icon: icon-data
   name: Server
@@ -68,7 +77,12 @@ about_services: # 형식에 맞추어 항목 추가
   name: App
 - icon: icon-code
   name: Python
-about_box_content: 괜찮은 문구 <br>박스 색바꾸는 yml파일에 추가 <br><br><br>야물파일로 변환 <strong>의뢰</strong>의뢰
+about_box_content: >-
+  문구 <br>박스 색바꾸는 yml파일에 추가 <br><br><br>야물파일로 변환 <strong>의뢰</strong>의뢰
+  <br>자신의 좌우명 등등 괜찮은 문구 넣어주기
+
+about_box_content_color: rgb(255, 255, 255)
+
 about_box_button:
   link: #
   name: sample
@@ -111,7 +125,7 @@ project_meta: My Work
 project_header: PROJECT
 project_introduce: <span>개인 프로젝트</span><span>팀 프로젝트</span><span>Business</span>
 project_load_more: 앞으로 더 많은 프로젝트가 추가될 예정입니다:)    # 더보기 내용
-project_load_more_url: #
+project_load_more_url: #https://noshblog.github.io/
 
 project_my_name: 개인프로젝트
 
